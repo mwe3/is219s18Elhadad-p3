@@ -90,8 +90,49 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
-	}
-	
+	},
+      {
+      title: 'Harry Potter and the Prisoner of Azkaban',
+      iscore: 7.8,
+      rating: 'PG',
+      runtime: 142,
+      released: new Date('2004', '06', '04'),
+      country: 'United Kingdom',
+      posters: ['img/PrisonerofAzkaban1.jpeg', 'img/prisonerofAzkaban2.jpeg'],
+      imdb: 'https://www.imdb.com/title/tt0304141/?ref_=nv_sr_4',
+      website: 'https://www.warnerbros.com/harry-potter-and-prisoner-azkaban',
+      likes: 903,
+      dislikes: 102,
+      posterindex: 0
+      },
+      {
+      title: 'Harry Potter and the Goblet of Fire',
+      iscore: 7.7,
+      rating: 'PG-13',
+      runtime: 157,
+      released: new Date('2005', '11', '18'),
+      country: 'United Kingdom',
+      posters: ['img/GobletofFire1.jpg', 'img/GobletofFire2.jpg'],
+      imdb: 'https://www.imdb.com/title/tt0330373/?ref_=nv_sr_3',
+      website: 'https://www.warnerbros.com/harry-potter-and-goblet-fire',
+      likes: 952,
+      dislikes: 205,
+      posterindex: 0
+      },
+      {
+      title: 'Harry Potter and the Half Blood Prince',
+      iscore: 7.6,
+      rating: 'PG',
+      runtime: 153,
+      released: new Date('2009', '07', '15'),
+      country: 'United Kingdom',
+      posters: ['img/halfblood1.jpg', 'img/halfblood2.jpg'],
+      imdb: 'https://www.imdb.com/title/tt0417741/',
+      website: 'https://www.pottermore.com/collection/harry-potter-half-blood-prince-collection',
+      likes: 1243,
+      dislikes: 132,
+      posterindex: 0
+      }
 	
   ];
 	

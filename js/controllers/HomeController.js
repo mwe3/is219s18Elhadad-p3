@@ -1,5 +1,5 @@
 app.controller('HomeController', ['$scope', function($scope) {
-	$scope.title = 'IMDB Maryam\'s Top 8 Movies';
+	$scope.title = 'IMDB + Maryam\'s Top 8 Movies';
       $scope.owner = 'Maryam Elhadad';
       $scope.github = 'https://github.com/mwe3/is219s18Elhadad-p3.git';
 	
@@ -140,7 +140,7 @@ app.controller('HomeController', ['$scope', function($scope) {
 
 	
 	/* ADD VARIABLES FOR STEP 3 HERE */
-	$scope.title = 'IMDB Maryam\'s Top 8 Movies';
+	$scope.title = 'IMDB + Maryam\'s Top 8 Movies';
       $scope.owner = 'Maryam Elhadad';
       $scope.github = 'https://github.com/mwe3/is219s18Elhadad-p3.git';
 	

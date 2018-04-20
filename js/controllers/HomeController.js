@@ -167,7 +167,7 @@ app.controller('HomeController', ['$scope', function($scope) {
             }
       };
 
-      $scope.timeTest = function(minutes){
+      $scope.timeText = function(minutes){
             var hours = Math.floor(minutes / 60);
             var mins = minutes % 60;
             var total = hours + "h" + mins
